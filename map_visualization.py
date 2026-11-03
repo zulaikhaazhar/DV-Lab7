@@ -15,10 +15,28 @@ st.set_page_config(
 )
 
 st.title("🌍 Interactive Map Visualization Examples")
+
+st.markdown(
+    """
+    <div style="
+        font-size: 18px;
+        font-weight: 600;
+        color: #4A90A4;
+        margin-top: -10px;
+        margin-bottom: 5px;
+    ">
+        Prepared by: Zulaikha Mohd Azhar
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.write(
     "Explore world geographical data through "
     "different map visualization techniques."
 )
+
+st.caption("TFB3133 / TEB3133 – Data Visualization | Lab 7")
 
 # ==========================================
 # 2. LOAD NATURAL EARTH DATASET
